@@ -2,20 +2,14 @@ package pokemon;
 public class Pokemon {
     private int hp;
     private int level;
+    private int damage;
     private String name;
 
-    public Pokemon(int hp, int level, String name) {
+    public Pokemon(int hp, int level, int damage, String name) {
         this.hp = hp;
         this.level = level;
         this.name = name;
-    }
-
-    public int getHp() {
-        return hp;
-    }
-
-    public void setHp(int hp) {
-        this.hp = hp;
+        this.damage = damage;
     }
 
     public int getLevel() {
@@ -34,4 +28,16 @@ public class Pokemon {
         this.name = name;
     }
 
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+    @Override
+    public String toString() {
+        return "name: " + name + "\nhp: " + hp + "\nlevel: " + level + "\ndamage: " + damage;
+    }
 }

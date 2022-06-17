@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Pokemon	pokemon/Pokemon.java	/^    public Pokemon(int hp, int level, int damage, String name) {$/;"	m	class:Pokemon
+Pokemon	pokemon/Pokemon.java	/^public class Pokemon {$/;"	c
+PokemonRunner	pokemon/PokemonRunner.java	/^public class PokemonRunner {$/;"	c
+damage	pokemon/Pokemon.java	/^    private int damage;$/;"	f	class:Pokemon	file:
+getDamage	pokemon/Pokemon.java	/^    public int getDamage() {$/;"	m	class:Pokemon
+getLevel	pokemon/Pokemon.java	/^    public int getLevel() {$/;"	m	class:Pokemon
+getName	pokemon/Pokemon.java	/^    public String getName() {$/;"	m	class:Pokemon
+hp	pokemon/Pokemon.java	/^    private int hp;$/;"	f	class:Pokemon	file:
+level	pokemon/Pokemon.java	/^    private int level;$/;"	f	class:Pokemon	file:
+main	pokemon/PokemonRunner.java	/^    public static void main(String[] args) {$/;"	m	class:PokemonRunner
+name	pokemon/Pokemon.java	/^    private String name;$/;"	f	class:Pokemon	file:
+pokemon	pokemon/Pokemon.java	/^package pokemon;$/;"	p
+pokemon	pokemon/PokemonRunner.java	/^package pokemon;$/;"	p
+setDamage	pokemon/Pokemon.java	/^    public void setDamage(int damage) {$/;"	m	class:Pokemon
+setLevel	pokemon/Pokemon.java	/^    public void setLevel(int level) {$/;"	m	class:Pokemon
+setName	pokemon/Pokemon.java	/^    public void setName(String name) {$/;"	m	class:Pokemon
+toString	pokemon/Pokemon.java	/^    public String toString() {$/;"	m	class:Pokemon
